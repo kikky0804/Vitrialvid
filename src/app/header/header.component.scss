@@ -1,0 +1,29 @@
+// MDB SCSS
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: #99d4e5;
+}
+.top-nav-collapse {
+    background-color: #99d4e5;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #99d4e5;
+    }
+}
+

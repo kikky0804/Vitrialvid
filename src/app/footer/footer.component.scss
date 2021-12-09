@@ -1,0 +1,16 @@
+// MDB SCSS
+@import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
+
+.footer {
+    background-color: #99d4e5;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        background-color: #99d4e5;
+    }
+}
+.container{
+    background-color: #99d4e5;
+}

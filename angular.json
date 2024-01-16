@@ -79,10 +79,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "Vitrialvid:build:production"
+              "buildTarget": "Vitrialvid:build:production"
             },
             "development": {
-              "browserTarget": "Vitrialvid:build:development"
+              "buildTarget": "Vitrialvid:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -90,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Vitrialvid:build"
+            "buildTarget": "Vitrialvid:build"
           }
         },
         "test": {

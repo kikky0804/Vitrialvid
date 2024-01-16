@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { PageIndexComponent } from './components/page-index/page-index.component';
 
-const appRoutes = [
+const appRoutes: Routes = [
   { path: '', component: PageIndexComponent,  pathMatch: 'full'}
 ];
 

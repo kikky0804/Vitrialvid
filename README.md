@@ -2,7 +2,7 @@
 
 proyecto realizado en: 
 @Angular CLI: 13.0.2
-@Node: 18.0
+@Node: 22.0
 Package Manager: npm 6.14.15
 @Bootsrap 4
 
